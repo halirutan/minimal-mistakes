@@ -60,6 +60,22 @@ figure.highlight {
 
 .highlight pre { width: 100%; }
 
+// Make line-number unselectable when using pygments
+
+.highlight .lineno {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  /*
+    Introduced in IE 10.
+    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
 /*
    Solarized Light
    http://ethanschoonover.com/solarized
@@ -144,3 +160,4 @@ figure.highlight {
 .highlight .vg { color: #22b3eb } /* Name.Variable.Global */
 .highlight .vi { color: #22b3eb } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
+
