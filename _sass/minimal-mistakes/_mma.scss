@@ -1,11 +1,64 @@
-.language-wl .c {  color: #888;  font-style: italic; } /* Comments */
-.language-wl .nb { font-weight: bold;  color: #555; }
-.language-wl .ne { color: #902000; }
-.language-wl .nf { color: #6e8413;  font-style: italic; }
-.language-wl .nt { color: #007020;  font-style: italic;  font-weight: normal;  }
-.language-wl .nv { color: #0e84b5; }
-.language-wl .o { color: #555; }
-.language-wl .p { color: #555;  font-weight: bold;}
-.language-wl .s { color: #902000; }
-.language-wl .err { color: #555; }
-.language-wl .m { color: #000; }
+
+.language-mathematica,
+.language-mma,
+.language-nb,
+.language-wl,
+.language-wolfram,
+.language-wolfram-language {
+  // c - comments
+  .c {
+    color: #888;
+    font-style: italic;
+  }
+  // special comment ::Section:: and :Author:
+  .cp {
+    color: #888;
+    font-style: italic;
+    font-weight: bold
+  }
+  // n - symbols
+  .nv {
+    color: #2e6d98;
+  }
+  // builtin symbols
+  .nb {
+    font-weight: bold;
+    color: #555;
+  }
+  // Keywords: Module With Block
+  .bp {
+    font-weight: bold;
+    color: #333;
+  }
+  // Operators
+  .o {
+    color: #555;
+  }
+  // Numbers
+  .m {
+    color: #833;
+  }
+  // Messages
+  .nt {
+    color: #555;
+    font-weight: bold;
+  }
+  // Braces
+  .p {
+    color: #000;
+    font-weight: bold;
+  }
+  // Slots
+  .nf {
+    color: #4e9d4e;
+    font-style: italic;
+  }
+  // Strings
+  .s {
+    color: #555;
+  }
+  // Error
+  .err {
+    color: #ee5f5b;
+  }
+}
