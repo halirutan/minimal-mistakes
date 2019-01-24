@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Wolfram Language Plugin skin
+   ========================================================================== */
+
+$gray                       : #AFB1B3 !default;
+$dark-gray                  : mix(#000, $gray, 40%) !default;
+$darker-gray                : mix(#000, $gray, 60%) !default;
+$light-gray                 : mix(#fff, $gray, 50%) !default;
+$lighter-gray               : mix(#fff, $gray, 90%) !default;
+
+/* Colors */
+$primary-color              : #3592C4 !default;
+$success-color              : #499C54 !default;
+$warning-color              : #F0A732 !default;
+$danger-color               : #C75450 !default;
+$info-color                 : #3592C4 !default;
+
+$background-color: #3c3f41 !default;
+$text-color: #bbb !default;
+$border-color: mix(#fff, $background-color, 10%) !default;
+
+
+$code-background-color: #2b2b2b !default;
+$code-background-color-dark: #1a1a1a !default;
+$form-background-color: mix(#000, $background-color, 15%) !default;
+$footer-background-color: mix(#000, $background-color, 30%) !default;
+$link-color: $info-color !default;
+$link-color-hover: mix(#fff, $link-color, 25%) !default;
+$link-color-visited: mix(#000, $link-color, 25%) !default;
+//$masthead-link-color: mix(#fff, $text-color, 10%) !default;
+//$masthead-link-color-hover: $primary-color !default;
+$masthead-link-color: mix(#fff, $info-color, 25%) !default;
+$masthead-link-color-hover: mix(#fff, $masthead-link-color, 25%) !default;
+$navicon-link-color-hover: #fff !default;
+
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: #6897BB;
+}
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}
+
+.page__footer {
+  color: $text-color !important; // override
+  background-color: $code-background-color !important;
+}
+
+a {
+  text-decoration: none;
+
+  &:focus {
+    text-decoration: none;
+  }
+
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Syntax highlighting
+
+/* syntax highlighting (base16) */
+$base00: #393939 !default;
+$base01: #525252 !default;
+$base02: #828282 !default;
+$base03: #9c9c9c !default;
+$base04: #b3b3b3 !default;
+$base05: #cccccc !default;
+$base06: #e6e6e6 !default;
+$base07: #ffffff !default;
+$base08: #f07178 !default;
+$base09: #f78c6c !default;
+$base0a: #ffcb6b !default;
+$base0b: #c3e88d !default;
+$base0c: #89ddff !default;
+$base0d: #82aaff !default;
+$base0e: #c792ea !default;
+$base0f: #ff5370 !default;
