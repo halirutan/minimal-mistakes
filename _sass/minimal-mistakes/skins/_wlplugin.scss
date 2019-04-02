@@ -26,7 +26,7 @@ $form-background-color: mix(#000, $background-color, 15%) !default;
 $footer-background-color: mix(#000, $background-color, 30%) !default;
 $link-color: $info-color !default;
 $link-color-hover: mix(#fff, $link-color, 25%) !default;
-$link-color-visited: mix(#000, $link-color, 25%) !default;
+$link-color-visited: $link-color !default;
 //$masthead-link-color: mix(#fff, $text-color, 10%) !default;
 //$masthead-link-color-hover: $primary-color !default;
 $masthead-link-color: mix(#fff, $info-color, 25%) !default;

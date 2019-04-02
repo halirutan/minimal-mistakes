@@ -1,11 +1,9 @@
 # main links links
 main:
-  - title: "Installation"
-    url: /installation/
   - title: "Documentation"
-    url: /docs/quick-start-guide/
+    url: /docs/installation/
   - title: "News"
-    url: /docs/posts/
+    url: /year-archive/
   - title: "About"
     url: /about/
 
@@ -13,100 +11,54 @@ main:
 docs:
   - title: Getting Started
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
       - title: "Installation"
         url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-  - title: Customization
+      - title: "Basic Usage"
+        url: /docs/basics/
+      - title: "Updating and Beta-Releases"
+        url: /docs/updates/
+      - title: "FAQ"
+        url: /docs/faq/
+  - title: Projects and Settings
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Overriding Theme Defaults"
-        url: /docs/overriding-theme-defaults/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-  - title: Content
+      - title: "Project and Module Structure"
+        url: /docs/placeholder/
+      - title: "Attaching other Projects"
+        url: /docs/placeholder/
+      - title: "Settings and Customization"
+        url: /docs/placeholder/
+  - title: Editing
     children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-  - title: Extras
+      - title: "Code Completion"
+        url: /docs/placeholder/
+      - title: "Live Templates"
+        url: /docs/placeholder/
+      - title: "Refactoring"
+        url: /docs/placeholder/
+      - title: "Intentions and QuickFixes"
+        url: /docs/placeholder/
+      - title: "Commenting"
+        url: /docs/placeholder/
+  - title: Code-Insight
     children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
-  - title: Meta
+      - title: "Structure View"
+        url: /docs/placeholder/
+      - title: "Navigate and Find"
+        url: /docs/placeholder/
+      - title: "Inspections"
+        url: /docs/placeholder/
+      - title: "Code Folding"
+        url: /docs/placeholder/
+  - title: Other
     children:
-      - title: "History"
-        url: /docs/history/
+      - title: "Markdown Support"
+        url: /docs/placeholder/
       - title: "Contributing"
         url: /docs/contributing/
       - title: "Old 2.2 Docs"
         url: /docs/docs-2-2/
       - title: "License"
         url: /docs/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /terms/
+      - title: "Terms &amp; Licensing"
+        url: /docs/placeholder/
 
-# sidebar navigation list sample
-sidebar-sample:
-  - title: "Parent Page A"
-    children:
-      - title: "Child Page A1"
-        url: /child-page-a1/
-      - title: "Child Page A2"
-        url: /child-page-a2/
-      - title: "Child Page A3"
-        url: /child-page-a3/
-      - title: "Child Page A4"
-        url: /child-page-a4/
-  - title: "Parent Page B"
-    children:
-      - title: "Child Page B1"
-        url: /child-page-b1/
-      - title: "Child Page B2"
-        url: /child-page-b2/
-      - title: "Child Page B3"
-        url: /child-page-b3/
-      - title: "Child Page B4"
-        url: /child-page-b4/
-      - title: "Child Page B5"
-        url: /child-page-b5/
-  - title: "Parent Page C"
-    children:
-      - title: "Child Page C1"
-        url: /child-page-c1/
-      - title: "Child Page C2"
-        url: /child-page-c2/
-      - title: "Child Page C3"
-        url: /child-page-c3/
-      - title: "Child Page C4"
-        url: /child-page-c4/
-      - title: "Child Page C5"
-        url: /child-page-c5/
-  - title: "Parent Page D"
-    children:
-      - title: "Child Page D1"
-        url: /child-page-d1/
-      - title: "Child Page D2"
-        url: /child-page-d2/
-      - title: "Child Page D3 (External)"
-        url: https://your-domain.com
