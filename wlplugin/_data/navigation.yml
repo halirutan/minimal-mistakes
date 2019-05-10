@@ -2,6 +2,8 @@
 main:
   - title: "Documentation"
     url: /docs/installation/
+  - title: "Prizing"
+    url: /pricing/
   - title: "News"
     url: /year-archive/
   - title: "About"
@@ -15,10 +17,10 @@ docs:
         url: /docs/installation/
       - title: "Basic Usage"
         url: /docs/basics/
-      - title: "Updating and Beta-Releases"
-        url: /docs/updates/
       - title: "FAQ"
         url: /docs/faq/
+      - title: "Licensing & Pricing"
+        url: /docs/licensing/
   - title: Projects and Settings
     children:
       - title: "Project and Module Structure"
