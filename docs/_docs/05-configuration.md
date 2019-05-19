@@ -281,14 +281,13 @@ To disable reading time for a post, add `read_time: false` its YAML Front Matter
 
 ### Comments
 
-[**Disqus**](https://disqus.com/), [**Discourse**](https://www.discourse.org/), [**Facebook**](https://developers.facebook.com/docs/plugins/comments), **Google+**, [**utterances**](https://utteranc.es/), and static-based commenting via [**Staticman**](https://staticman.net/) are built into the theme. First set the comment provider you'd like to use:
+[**Disqus**](https://disqus.com/), [**Discourse**](https://www.discourse.org/), [**Facebook**](https://developers.facebook.com/docs/plugins/comments), [**utterances**](https://utteranc.es/), and static-based commenting via [**Staticman**](https://staticman.net/) are built into the theme. First set the comment provider you'd like to use:
 
 | Name             | Comment Provider          |
 | ---------------- | ------------------------- |
 | **disqus**       | Disqus                    |
 | **discourse**    | Discourse                 |
 | **facebook**     | Facebook Comments         |
-| **google-plus**  | Google+ Comments          |
 | **staticman_v2** | Staticman v2              |
 | **staticman**    | Staticman v1 (deprecated) |
 | **utterances**   | utterances                |
@@ -392,7 +391,19 @@ Transform user comments into `_data` files that live inside of your GitHub repos
 
 ###### Staticman v3
 
-Due to the support for GitLab, the URL scheme has been changed.  Bewteen `v3` and `/entry`, one needs to input a Git service provider (either `github` or `gitlab`).  Apart from that, the setup for GitHub remains the same.
+Due to the [support for GitLab](https://github.com/eduardoboucas/staticman/pull/219), the URL scheme has been changed.  Between `v3/entry/` and `/{your Git username}`, one needs to input a Git service provider (either `github` or `gitlab`).  For example
+
+    https://{your Staticman v3 API}/v3/entry/github/{your Git username}/{your repository name}/...
+
+```yaml
+# _config.yml (defaults)
+repository  : # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+comments:
+  provider  : "staticman_v2"
+  staticman:
+    branch    : "master"
+    endpoint  : https://{your Staticman v3 API}/v3/entry/github/
+```
 
 ###### Staticman v2
 
