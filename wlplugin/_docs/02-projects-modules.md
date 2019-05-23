@@ -1,6 +1,6 @@
 ---
-title: "Under Construction"
-permalink: /docs/placeholder/
+title: "Structure of Projects and Modules"
+permalink: /docs/projects-modules/
 excerpt: "Currently under construction"
 toc: false
 ---

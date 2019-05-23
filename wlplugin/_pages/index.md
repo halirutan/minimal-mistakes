@@ -6,10 +6,18 @@ header:
   overlay_image: /assets/images/wlSplash.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Download Version 2019.1 Beta"
-      url: "/docs/updates"
+      url: "/docs/installation/#upgrading-from-version-244-to-version-2019"
 excerpt: >
   Turn your IntelliJ IDE into a powerful development tool<br /> for working with Wolfram Language packages.<br />
 ---
+
+This website for the new Wolfram Language IntelliJ Plugin is currently under construction. Many details, especially in 
+the documentation, are still missing and will be added in the future. Likewise, the new plugin 
+version
+2019 is currently only available as beta version. Please refer to the 
+[documentation](/docs/installation#upgrading-from-version-244-to-version-2019) if you 
+want to try it.
+{: .notice--info}
 
 ## What is the Wolfram Language Plugin?
 

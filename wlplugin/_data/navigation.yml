@@ -2,8 +2,8 @@
 main:
   - title: "Documentation"
     url: /docs/installation/
-  - title: "Prizing"
-    url: /pricing/
+  - title: "Licensing"
+    url: /docs/licensing/
   - title: "News"
     url: /year-archive/
   - title: "About"
@@ -17,6 +17,8 @@ docs:
         url: /docs/installation/
       - title: "Basic Usage"
         url: /docs/basics/
+      - title: "Feature Overview"
+        url: /docs/feature-overview/
       - title: "FAQ"
         url: /docs/faq/
       - title: "Licensing & Pricing"
@@ -24,43 +26,37 @@ docs:
   - title: Projects and Settings
     children:
       - title: "Project and Module Structure"
-        url: /docs/placeholder/
+        url: /docs/projects-modules/
       - title: "Attaching other Projects"
-        url: /docs/placeholder/
+        url: /docs/libraries/
       - title: "Settings and Customization"
-        url: /docs/placeholder/
+        url: /docs/settings/
   - title: Editing
     children:
       - title: "Code Completion"
-        url: /docs/placeholder/
+        url: /docs/code-completion/
       - title: "Live Templates"
-        url: /docs/placeholder/
+        url: /docs/live-templates/
       - title: "Refactoring"
-        url: /docs/placeholder/
-      - title: "Intentions and QuickFixes"
-        url: /docs/placeholder/
+        url: /docs/refactoring/
       - title: "Commenting"
-        url: /docs/placeholder/
+        url: /docs/commenting/
   - title: Code-Insight
     children:
       - title: "Structure View"
-        url: /docs/placeholder/
+        url: /docs/structure-view/
       - title: "Navigate and Find"
-        url: /docs/placeholder/
-      - title: "Inspections"
-        url: /docs/placeholder/
+        url: /docs/navigate-find/
+      - title: "Inspections and QuickFixes"
+        url: /docs/inspections-quickfixes/
       - title: "Code Folding"
-        url: /docs/placeholder/
+        url: /docs/code-folding/
   - title: Other
     children:
       - title: "Markdown Support"
         url: /docs/placeholder/
       - title: "Contributing"
         url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
-      - title: "License"
-        url: /docs/license/
-      - title: "Terms &amp; Licensing"
-        url: /docs/placeholder/
+      - title: "Plugin Blog"
+        url: /year-archive/
 

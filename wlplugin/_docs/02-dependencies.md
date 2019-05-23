@@ -1,6 +1,6 @@
 ---
-title: "Under Construction"
-permalink: /docs/placeholder/
+title: "Attaching Wolfram Packages as Libraries"
+permalink: /docs/libraries/
 excerpt: "Currently under construction"
 toc: false
 ---

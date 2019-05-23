@@ -66,7 +66,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/halirutan/"
-    - label: "Stackexchange"
+    - label: "StackExchange"
       icon: "fab fa-fw fa-stack-exchange"
       url: "https://mathematica.stackexchange.com/users/187/halirutan"
 
