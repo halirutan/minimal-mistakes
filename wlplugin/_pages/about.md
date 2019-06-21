@@ -1,6 +1,8 @@
 ---
 permalink: /about/
 title: "About the Wolfram Language Plugin"
+header:
+  overlay_image: /assets/images/wlSplash3.jpg
 toc: false
 author_profile: true
 ---
@@ -8,8 +10,8 @@ author_profile: true
 The work on the Wolfram Language Plugin started in late 2012 as a proof-of-concept and was planned as a community 
 project to provide an alternative to the Wolfram Workbench.
 The reasons for starting the development were twofold: As a long-time user of IntelliJ IDEA 
-I wanted to use the Wolfram Language within IDEA and its incredible editing features. Additionally,
-I never really got to like Eclipse which is the underlying IDE of the Wolfram Workbench.
+I wanted to use the Wolfram Language within IDEA and its incredible editing features. Secondly,
+I never really got to like Eclipse which is the underlying IDE of the Wolfram Workbench and I needed an alternative.
 
 When starting to work on the plugin, the toughest parts were to get used to the large IntelliJ SDK and to 
 implement a parser for Wolfram Language which is both error-tolerant and reasonably fast.
@@ -17,7 +19,7 @@ It must be fast, because on each keystroke the whole file is reparsed and the re
 used to determine syntax highlighting, resolve where your functions are defined, and provide advanced code insight
 features. The parser must be error-tolerant because most of the time while you're writing, your code is incomplete
 and syntactically wrong.
-The parser must account for that and process the whole file, even if it contains errors.
+The parser has to account for that and process the whole file, even if it contains errors.
 One further complication is that the syntax of the Wolfram Language, although very well documented, has no official
 specification and there are some quirks in the language that pop up from time to time.
 To give an example, try to guess the result of `{1,2,3}/.1->4` without evaluating it.
@@ -41,4 +43,4 @@ The work on the Wolfram Language Plugin happens during my free-time or on weeken
 It does not only consist of writing code.
 A large portion is reading IntelliJ IDEA's sources to understand how things are implemented and dig into the details
 of the Wolfram Language.
-Other things include creating icons, write documentation and actually using the plugin in my projects.
+Other things include creating icons, writing documentation and actually using and testing the plugin in my projects.

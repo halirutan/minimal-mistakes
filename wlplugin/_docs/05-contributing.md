@@ -6,8 +6,8 @@ toc: false
 ---
 
 The most direct way to contribute to the Wolfram Language Plugin is subscribing to a [paid license](/docs/licensing)
-because the revenue helps me to assign more time for its development.
-Beside this, there are three categories where you can help to make the plugin better
+because the revenue helps me to assign more time to its development.
+Beside this, there are two things where you can help to make the plugin better
 
 ## Improve documentation
 

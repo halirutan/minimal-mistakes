@@ -10,11 +10,20 @@ probable errors by analyzing the structure and content of your code.
 They run in the background automatically and issue warnings that help you to write correct Wolfram Language code.
 Each inspection has a definite purpose and can be adjusted or turned off easily.
 You can find the settings for all Wolfram Language inspections by navigating to 
+**File | Settings | Editor | Inspections | Wolfram Language**.
 
-- **File | Settings | Editor | Inspections | Wolfram Language**
+The listing there shows all available inspections and contains clear descriptions what they do.
+Below you find a more detailed description of two specific ones that gives you more insight how inspections work.
 
-The listing there shows all available inspections and contains clear descriptions how they work.
-Below you find a more detailed description of two specific inspections that gives you more insight how they work.
+Some inspections come with so-called **Quick Fixes** which means they can automatically be corrected.
+One of these is the "Missing Semicolon" warning that enforced the usage of a semicolon after each separate expression
+(e.g., function definition) at file level. When your cursor is at the place of the warning, a small light bulb appears
+on the left hand side.
+Pressing `Alt`+`Enter` opens a pop-up window which lets you insert the semicolon automatically.
+The important part is that you can select "fix all" which will correct all missing semicolons in the current file.
+
+Note that you can use the light bulb also to turn off this inspection without going to the settings.
+{: .notice--info}
 
 ## Language Version Inspection
 

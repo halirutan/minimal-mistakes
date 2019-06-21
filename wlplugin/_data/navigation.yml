@@ -54,7 +54,7 @@ docs:
   - title: Other
     children:
       - title: "Markdown Support"
-        url: /docs/placeholder/
+        url: /docs/markdown-support/
       - title: "Contributing"
         url: /docs/contributing/
       - title: "Plugin Blog"

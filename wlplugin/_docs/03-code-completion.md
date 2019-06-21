@@ -36,30 +36,38 @@ That is helpful if you like to surround an expression with `Module`, braces, `Do
 
 ## 2. Inserting a completion
 
-The completion window has basically two states: 1. No entry is focused and 2. an entry is focused. When you did not enable *Insert selected variant by typing dot, ...* in the settings above, IDEA will not focus any entry for the auto popup code completion window. The list will look like this
+The completion window has basically two states: 1. No entry is focused and 2. an entry is focused.
+The list will look like this
 
-![unselected completion](http://i.imgur.com/bA9uiSm.png)
+[![Code Completion not selected][2]{: .align-center}][2]
 
-As soon as you use your arrow keys to move down the list, or you invoke the completion explicitly with one of the shortcuts above, one entry will be highlighted. Here is the same image as above after I pressed down arrow
+As soon as you use your arrow keys to move down the list, or you invoke the completion explicitly with one of the
+shortcuts above, one entry will be highlighted. Here is the same image as above after I pressed down arrow
 
-![focused entry](http://i.imgur.com/ro5ZEcF.png)
+[![Code Completion selected][3]{: .align-center}][3]
 
-There is not much difference between these two, except with a focused entry, you can use `[`, `(`, `;`, `Space`, or several other keys and the completion is inserted. If no entry is focused, then this won't work. 
-
-Most of the times you will insert a completion entry in 3 different ways:
+There is not much difference between these two, except with a focused entry, you can use `[`, `(`, `;`, `Space`, and 
+several other keys and the completion is inserted. If no entry is focused, insertion of the top suggestion is possible
+in 3 different ways:
 
 - pressing `Enter` simply inserts the selected entry
-- pressing `Tab` will insert the entry, deleting the text that is right to the cursor. This is handy if you have mistyped something. Let's say you have typed `AbsoluteFileName` but what you wanted was `AbsoluteTiming`. Just go with the cursor right after the `Absolute` and start typing `T` and press `Tab`. You see that the rest of `FileName` is replaced. 
-- pressing `Ctrl`+`Shift`+`Enter` is called SmartEnter and it will insert the entry as well, but in addition, it will insert `[]` for you if it is a built-in function. Try typing `Ab` and press it. The behavior if only `[]` is inserted or for instance the complete call pattern can be adjusted in _Settings_->_Languages_-> _Mathematica_.
+- pressing `Tab` will insert the entry, deleting the text that is right to the cursor. This is handy if you have mistyped something.
+Let's say you have typed `AbsoluteFileName` but what you wanted was `AbsoluteTiming`.
+Just go with the cursor right after the `Absolute` and start typing `T` and press `Tab`.
+You see that the rest of `FileName` is replaced. 
+- pressing `Ctrl`+`Shift`+`Enter` is called SmartEnter and it will insert the entry as well, but in addition, it will insert `[]`
+for you if it is a built-in function.
+Try typing `Ab` and press it.
+The behavior if only `[]` is inserted or for instance the complete call pattern can be adjusted in 
+**Settings | Languages | Mathematica**.
 
-Here is an example that shows how SmartEnter works:
+You can always call the completion pop up with `Ctrl`+`Space`, even in the middle of a word. As explained above, use 
+`Tab` to replace the rest of the word with the current selection.
 
-[[img/01smartcompl.gif]]
+Remember, as soon as you start navigating inside the completion window and you have focused an entry, you can always 
+look up its documentation with `Ctrl`+`Q` (`Cmd`+`J` on OS X).
+{: .notice--info}
 
-Here is an example that shows that you can always call the completion pop up with `Ctrl`+`Space`, even in the middle of a word. As explained above, use `Tab` to replace the rest of the word with the current selection:
-
-[[img/01complTab.gif]]
-
-And remember, as soon as you start navigating inside the completion window and you have focused an entry, you can always look up its documentation with `Ctrl`+`Q` (`Ctrl`+`j` on OS X).
-
-[1]: /assets/images/doc/04-completion-settings.png
+[1]: /assets/images/doc/03-completion-settings.png
+[2]: /assets/images/doc/03-complete-not-selected.png
+[3]: /assets/images/doc/03-complete-selected.png

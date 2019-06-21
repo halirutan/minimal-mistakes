@@ -29,12 +29,20 @@ However, like educators, they work for the greater good pushing the boundaries o
 Therefore, people who can prove their association with a university or school will get the Wolfram Language Plugin 
 for free.
 
+The free license and other discounts include many more groups and for a first impression you can look at the 
+[special offers of IntelliJ IDEA](https://www.jetbrains.com/idea/buy/#edition=discounts).
+
+
 ## Personal license for non-commercial use
 
-People working on private, non-commercial projects or people who want to actively support the development of the 
+People working on private, non-commercial projects or people **who want to actively support the development** of the 
 Wolfram Language Plugin can get a license for a small subscription fee which can be paid monthly or yearly.
+
+The plan is to offer this license for approx **3 Euro/month** if paid monthly or **30 Euro/year** if paid yearly.
+The price is similar to or smaller than what you would pay for one beer in a bar in Germany.
 
 ## Commercial licenses
 
 People using the Wolfram Language Plugin for their work can get a commercial license subscription paid monthly or 
 yearly.
+The plan is to offer this license for approx **12 Euro/month** if paid monthly or **120 Euro/year** if paid yearly.

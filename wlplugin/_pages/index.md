@@ -1,14 +1,13 @@
 ---
-title: "Wolfram Language Plugin for IntelliJ IDEA"
+title: "Wolfram Language Plugin 2019 for IntelliJ platform based IDE's"
 layout: splash
 permalink: /
 header:
   overlay_image: /assets/images/wlSplash.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Download Version 2019.1 Beta"
+    - label: "<i class='fas fa-download'></i> Download Beta Version"
       url: "/docs/installation/#upgrading-from-version-244-to-version-2019"
-excerpt: >
-  Turn your IntelliJ IDE into a powerful development tool<br /> for working with Wolfram Language packages.<br />
+excerpt: "Turn your IntelliJ IDE into a powerful development tool<br /> for working with Wolfram Language packages.<br />"
 ---
 
 This website for the new Wolfram Language IntelliJ Plugin is currently under construction. Many details, especially in 
@@ -47,7 +46,7 @@ All variables scoped by `Module`, `Block`, `With`, but also by other constructs 
 as well as all functions defined in your project.
 The plugin is aware of options for all Wolfram Language functions and provides you with correct completion candidates.
 This _smart completion_ also works on other places and helps to, e.g. insert defined error messages when using `Message[..]`.
-[More about Code Completion...](#link)
+[More about Code Completion...](/docs/code-completion/)
 
 
 ![img](assets/images/LiveTemplates.png){: .align-center}
@@ -59,7 +58,8 @@ Live Templates provide expandable boiler-plate code for most common Wolfram Lang
 These templates also work when wrapping them around existing code or selected text.
 In the screen-shot above, the initial `Table` is inserted by expanding the short `tbl` with the `Tab` key.
 A simple short-cut is invoked to wrap everything in a `Module`.
-Surrounding existing expressions additionally works with arbitrary functions and parentheses. [Learn more about Templates...](#link)
+Surrounding existing expressions additionally works with arbitrary functions and parentheses.
+[Learn more about Live Templates...](/docs/live-templates/)
 
 
 ![img](assets/images/Rename.png){: .align-center}
@@ -70,7 +70,7 @@ Renaming functions and symbols with all their usages is often enough one source 
 The Wolfram Language Plugin makes this painless by allowing for renaming of local variables, arguments and 
 functions.
 The screen-shot above shows how easy it is to rename all appearing symbols in the example.
-[More about Refactoring...](#link)
+[More about Refactoring...](/docs/refactoring/)
 
 ![img](assets/images/StructureView.png){: .align-center}
 
@@ -81,4 +81,4 @@ provides a compact outline of a Wolfram package.
 It differentiates between function definitions, options, attributes, etc. and allows for a direct navigation to the
 appropriate location inside the source code.
 The display can be sorted by symbol names or types of definition and makes navigation inside package code easy.
-[More about Navigation...](#link)
+[More about the Structure View...](/docs/structure-view/)
