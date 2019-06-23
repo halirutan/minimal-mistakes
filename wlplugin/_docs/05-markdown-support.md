@@ -4,7 +4,8 @@ permalink: /docs/markdown-support/
 toc: false
 ---
 
-The Wolfram Language Plugin also works with JetBrains' Markdown Support plugin which is bundled with the IDE.
+The Wolfram Language Plugin also works with JetBrains' Markdown Support plugin which can be installed when you need
+to work with markdown files.
 It provides highlighting for the code in the text-editor and many static website generators take the language
 tags after the initial triple-ticks into account and highlight code accordingly.
 
